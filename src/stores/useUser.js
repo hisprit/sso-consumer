@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia';
 import authApi from 'src/apis/authApi';
+import {socket} from 'boot/socket';
 
 export default defineStore('user', {
 	state: () => ({
